@@ -47,6 +47,7 @@ TERMINAL COMMANDS:
     mkdir -p nonExistentDirectory/directory -> creates a new directory structure
   
   cp targetDirectoryName/fileName destinationDirectory -> copies a file to the specified directory
+    cp targetDirectoryName/fileName destinationDirectory/fileName -> copies the content of a file to the specified file (replace content)
     cp targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectory -> copies all specified files to the specified directory
     cp -r targetDirectoryName destinationDirectory -> copies all the files from a directory to the specified directory
   
