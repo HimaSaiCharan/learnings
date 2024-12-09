@@ -1,0 +1,50 @@
+TERMINAL INTRO: 
+  An interface to interact with the computer (Hardware). 
+  In the modern times, humans developed a software and named it as "TERMINAL" as it is one end of the computer and lets humans interact with the computer.
+  Terminal is the most convinent way to use to SHELL.
+
+SHELL INTRO: 
+  Program that allows user to interact with the OS through a command-line interface (CLI) or a graphical user interface (GUI).
+
+TERMINAL SHORTCUTS: 
+  ctrl + l -> clear screen
+  cmd + k -> clear screen and remove history
+  cmd + l -> clear last executed command  
+  ctrl + c -> come out of the current process
+
+TERMINAL SPECIAl CHARACTERS:
+  / -> used as seperator for directories
+  / -> refers to the root directory
+  . -> refers to current directory
+  .. -> refers to parent directory
+  ~ -> refers to the home directory
+  -Letter -> acts an extra argument for commands
+  % -> shows that a file has ended if the file doesn't end with a new line
+
+
+TERMINAL COMMANDS: 
+  brew install -> downloads and installs a package
+  pwd -> displays the present working directory
+  ls directory -> displays all the content of the specified directory
+    ls -a directory -> displays all the content (including hidden files) of the specified directory
+  cd directory -> switches the present working directory to the specified directory
+  code directory -> opens the specified directory in visual studio code 
+    code directory/fileName -> opens the specified file in visual studio code 
+  tree directory -> displays all the files and directory in the specified directory
+  mkdir directory -> creates a new directory
+    mkdir -p nonExistentDirectory/directory -> creates a new directory structure
+  cp targetDirectoryName/fileName destinationDirectoryName -> copies a file to the specified directory
+    cp targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectoryName -> copies all specified files to the specified directory
+    cp -r targetDirectoryName destinationDirectoryName -> copies all the files from a directory to the specified directory
+  mv targetDirectoryName/fileName destinationDirectoryName -> moves a file to the specified directory
+    mv targetDirectoryName destinationDirectoryName -> moves a directory to the specified directory
+    mv targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectoryName -> moves all specified files to the specified directory
+  rm fileName -> deletes a file
+    rm -r directory -> deletes a directory even if it has content
+  rmdir directory -> deletes a directory only if it is empty
+  touch directory/fileName -> creates a file
+  cat directory/fileName -> displays the content of the specified file
+    cat directory/fileName directory/fileName -> displays the content of the all the specified files
+
+
+  
