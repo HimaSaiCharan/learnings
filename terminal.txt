@@ -46,14 +46,14 @@ TERMINAL COMMANDS:
   mkdir directory -> creates a new directory
     mkdir -p nonExistentDirectory/directory -> creates a new directory structure
   
-  cp targetDirectoryName/fileName destinationDirectory -> copies a file to the specified directory
-    cp targetDirectoryName/fileName destinationDirectory/fileName -> copies the content of a file to the specified file (replace content)
-    cp targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectory -> copies all specified files to the specified directory
-    cp -r targetDirectoryName destinationDirectory -> copies all the files from a directory to the specified directory
+  cp directory/fileName destinationDirectory -> copies a file to the specified directory
+    cp directory/fileName destinationDirectory/fileName -> copies the content of a file to the specified file (replace content)
+    cp directory/fileName directory/fileName destinationDirectory -> copies all specified files to the specified directory
+    cp -r directory destinationDirectory -> copies all the files from a directory to the specified directory
   
-  mv targetDirectoryName/fileName destinationDirectory -> moves a file to the specified directory
-    mv targetDirectoryName destinationDirectory -> moves a directory to the specified directory
-    mv targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectory -> moves all specified files to the specified directory
+  mv directory/fileName destinationDirectory -> moves a file to the specified directory
+    mv directory destinationDirectory -> moves a directory to the specified directory
+    mv directory/fileName directory/fileName destinationDirectory -> moves all specified files to the specified directory
   
   rm fileName -> deletes a file
     rm -r directory -> deletes a directory even if it has content
