@@ -35,20 +35,24 @@ TERMINAL COMMANDS:
   cd directory -> switches the present working directory to the specified directory
 
   code directory -> opens the specified directory in visual studio code 
-    code directory/fileName -> opens the specified file in visual studio code 
+    code directory/fileName -> opens the specified file in visual studio code
+
+  deno directory/fileName -> interprets and executes javascript files
+    deno run directory/fileName -> interprets and executes javascript files (somehow quickly)
+    deno directory/fileName > destinationDirectory/fileName (or) deno run directory/fileName > destinationDirectory/fileName -> creates a text file storing the output of a javascript program
 
   tree directory -> displays all the files and directory in the specified directory
 
   mkdir directory -> creates a new directory
     mkdir -p nonExistentDirectory/directory -> creates a new directory structure
   
-  cp targetDirectoryName/fileName destinationDirectoryName -> copies a file to the specified directory
-    cp targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectoryName -> copies all specified files to the specified directory
-    cp -r targetDirectoryName destinationDirectoryName -> copies all the files from a directory to the specified directory
+  cp targetDirectoryName/fileName destinationDirectory -> copies a file to the specified directory
+    cp targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectory -> copies all specified files to the specified directory
+    cp -r targetDirectoryName destinationDirectory -> copies all the files from a directory to the specified directory
   
-  mv targetDirectoryName/fileName destinationDirectoryName -> moves a file to the specified directory
-    mv targetDirectoryName destinationDirectoryName -> moves a directory to the specified directory
-    mv targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectoryName -> moves all specified files to the specified directory
+  mv targetDirectoryName/fileName destinationDirectory -> moves a file to the specified directory
+    mv targetDirectoryName destinationDirectory -> moves a directory to the specified directory
+    mv targetDirectoryName/fileName targetDirectoryName/fileName destinationDirectory -> moves all specified files to the specified directory
   
   rm fileName -> deletes a file
     rm -r directory -> deletes a directory even if it has content
