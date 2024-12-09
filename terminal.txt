@@ -18,9 +18,11 @@ TERMINAL SPECIAl CHARACTERS:
   . -> refers to current directory
   .. -> refers to parent directory
   ~ -> refers to the home directory
-  -Letter -> acts an extra argument for commands
+  - -> acts an extra argument for commands
+    -a -> select all files
+    -r -> recurse through all files
+    -p -> creates intermediate directories as required.
   % -> shows that a file has ended if the file doesn't end with a new line
-
 
 TERMINAL COMMANDS: 
   brew install -> downloads and installs a package
