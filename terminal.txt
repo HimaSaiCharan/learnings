@@ -31,6 +31,8 @@ TERMINAL COMMANDS:
 
   ls directory -> displays all the content of the specified directory
     ls -a directory -> displays all the content (including hidden files) of the specified directory
+    ls -l directory/fileName -> displays the size of the files in bytes
+    ls -lh directory/fileName -> displays the size of the files in human readable format.
 
   cd directory -> switches the present working directory to the specified directory
 
@@ -64,3 +66,24 @@ TERMINAL COMMANDS:
   
   cat directory/fileName -> displays the content of the specified file
     cat directory/fileName directory/fileName -> displays the content of the all the specified files
+  
+  man command-> displays the manual of the specified command.
+
+  head directory/fileName -> displays 10 lines of the file from start.
+    head -n(number) directory/fileName -> return specified number of lines of the file.
+  
+  tail directory/fileName -> displays 10 lines of the file from the end.
+    head -n(number) directory/fileName -> displays specified number of lines of the file from the end.
+
+  wc directory/fileName -> display lines, words, characters of the file.
+    wc -l directory/fileName -> displays number of lines in the file.
+    wc -w directory/fileName -> displays number of words in the file.
+    wc -L directory/fileName -> displays number of characters of the biggest line of the file.
+    wc -wl directory/fileName -> displays number of words and lines in the file.
+
+  echo '' -> write arguments to the standard output.
+
+  fileName > newFileName -> replaces all the content to the new created file if the file is not created.
+  fileName >> anotherFileName -> appends the content of the file to another file.
+
+  
